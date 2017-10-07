@@ -1,24 +1,25 @@
 #write your code here
-def add num1 num2
-  num1 + num2
+def add (num1, num2)
+  return num1 + num2
 end
 
-def subtract num1 num2
-  num1 - num2
+def subtract (num1, num2)
+  return num1 - num2
 end
 
-def sum array1
+def sum (array1)
   total = 0
   array1.each do |num|
   total = total + num
+  end
   return total
 end
 
-def power base power
-  base**power 
+def power (base, powe)
+  return base**powe 
 end
 
-def factorial num
+def factorial (num)
   i = num
   fact = num
   while i > 1
